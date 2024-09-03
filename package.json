@@ -1,0 +1,11 @@
+{
+  "name": "food_for_foody",
+  "version": "1.0.0",
+  "description": "Here we are going to create a food app in React but with a twist.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
