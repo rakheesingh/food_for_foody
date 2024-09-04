@@ -4,8 +4,16 @@
   "description": "Here we are going to create a food app in React but with a twist.",
   "main": "App.js",
   "scripts": {
+    "start": "",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakheesingh/food_for_foody"
+  },
+  "author": "Rakhee",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
