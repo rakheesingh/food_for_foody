@@ -1,0 +1,8 @@
+{
+    "restaurants": [
+      { "id": 1, "name": "Restaurant A", "star": 4.5, "cuisines": ["Italian"], "timing": "25-30" },
+      { "id": 2, "name": "Restaurant B", "star": 4.0, "cuisines": ["Chinese"], "timing": "30-35" },
+      { "id": 50, "name": "Restaurant Z", "star": 4.8, "cuisines": ["Japanese"], "timing": "20-25" }
+    ]
+  }
+  

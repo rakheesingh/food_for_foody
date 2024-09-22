@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 3rem; /* Fixed height for the header */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    padding: 8px 1.5rem;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  
+  .header img {
+    width: 3rem; /* Maintain the aspect ratio */
+    height: 3rem;
+  }
+
+  .navBar{
+    display: flex;
+    gap: 2rem;
+  }
+
+  
