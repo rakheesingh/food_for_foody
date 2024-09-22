@@ -1,18 +1,14 @@
-const { useEffect } = require("react/cjs/react.production.min");
+import { useEffect } from "react";
 
-function useOnScreen(element = window ){
+function useOnScreen(element = window) {
+  const checkElementOnScreen = () => {
+    const axisOfElement = element.outerHeight;
+  };
 
-    const checkElementOnScreen = () => {
-      const axisOfElement = element.outerHeight
-    }
-
-    useEffect(() => {
-      
-      document.addEventListener('scroll', checkElementOnScreen);
-      return () => {
-        document.removeEventListener('scroll', checkElementOnScreen);
-
-      }
-    }, [])
-
+  useEffect(() => {
+    document.addEventListener("scroll", checkElementOnScreen);
+    return () => {
+      document.removeEventListener("scroll", checkElementOnScreen);
+    };
+  }, []);
 }

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import { MemoResturent } from "../../commonComponent/ResturentCard";
 import { resturentsList } from "app/helper/Constants";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,7 +9,7 @@ const TopResturents = () => {
   const { loading, restaurants, error } = useSelector((state) => state.restaurants);
 
   useEffect(() => {
-    dispatch(fetchRestaurants({ page: 1, limit: 10 }));
+    dispatch(fetchRestaurants({ page: 1, limit: 5 }));
   }, [dispatch]);
 
   return (
@@ -21,17 +21,17 @@ const TopResturents = () => {
         flexWrap: "wrap",
       }}
     >
-      {resturentsList.card.card.gridElements.infoWithStyle.restaurants.map(
+      {restaurants.map(
         (resturent) => (
           <MemoResturent
-            key={resturent.info.id}
+            key={resturent.id}
             foodImage={
               "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-              resturent.info.cloudinaryImageId
+              resturent.cloudinaryImageId
             }
-            star={resturent.info.avgRatingString}
-            name={resturent.info.name}
-            topCusions={resturent.info.cuisines}
+            star={resturent.avgRatingString}
+            name={resturent.name}
+            topCusions={resturent.cuisines}
           />
         )
       )}

@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useState } from "react/cjs/react.production.min";
+import { useEffect, useState } from "react";
 
 export function useIdle(delay) {
   const [isUseridle, setIsUserIdle] = useState(false);

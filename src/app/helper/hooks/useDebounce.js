@@ -1,4 +1,4 @@
-const { useRef } = require("react/cjs/react.production.min");
+import {useRef} from 'react'
 
 export function useDebounce(expensiveFunction, delay) {
   let timeoutRef = useRef(null);

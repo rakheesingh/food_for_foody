@@ -1,8 +1,212 @@
 {
-    "restaurants": [
-      { "id": 1, "name": "Restaurant A", "star": 4.5, "cuisines": ["Italian"], "timing": "25-30" },
-      { "id": 2, "name": "Restaurant B", "star": 4.0, "cuisines": ["Chinese"], "timing": "30-35" },
-      { "id": 50, "name": "Restaurant Z", "star": 4.8, "cuisines": ["Japanese"], "timing": "20-25" }
-    ]
-  }
-  
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Restaurant A",
+      "star": 4.5,
+      "cuisines": ["Italian"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant B",
+      "star": 4.0,
+      "cuisines": ["Chinese"],
+      "timing": "30-35",
+      "cloudinaryImageId": "nbcpg5xk6ekrrngmkd0b"
+    },
+    {
+      "id": 3,
+      "name": "Restaurant C",
+      "star": 4.8,
+      "cuisines": ["Japanese"],
+      "timing": "20-25",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/dfbcecfc-b380-4648-930a-b9b56b21e781_263485.JPG"
+    },
+    {
+      "id": 4,
+      "name": "Restaurant D",
+      "star": 4.3,
+      "cuisines": ["Mexican"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 5,
+      "name": "Restaurant E",
+      "star": 4.6,
+      "cuisines": ["Thai"],
+      "timing": "30-35",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 6,
+      "name": "Restaurant F",
+      "star": 4.1,
+      "cuisines": ["Indian"],
+      "timing": "35-40",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 7,
+      "name": "Restaurant G",
+      "star": 4.7,
+      "cuisines": ["French"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 8,
+      "name": "Restaurant H",
+      "star": 4.9,
+      "cuisines": ["Greek"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 9,
+      "name": "Restaurant I",
+      "star": 4.2,
+      "cuisines": ["Spanish"],
+      "timing": "30-35",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 10,
+      "name": "Restaurant J",
+      "star": 4.4,
+      "cuisines": ["Lebanese"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 11,
+      "name": "Restaurant K",
+      "star": 4.5,
+      "cuisines": ["Korean"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 12,
+      "name": "Restaurant L",
+      "star": 4.6,
+      "cuisines": ["Vietnamese"],
+      "timing": "30-35",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 13,
+      "name": "Restaurant M",
+      "star": 4.7,
+      "cuisines": ["Turkish"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 14,
+      "name": "Restaurant N",
+      "star": 4.8,
+      "cuisines": ["Moroccan"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 15,
+      "name": "Restaurant O",
+      "star": 4.9,
+      "cuisines": ["Ethiopian"],
+      "timing": "30-35",
+      "cloudinaryImageId": "cfa1123ebf17413dc7d0a80c7361fab3"
+    },
+    {
+      "id": 16,
+      "name": "Restaurant P",
+      "star": 4.3,
+      "cuisines": ["Brazilian"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 17,
+      "name": "Restaurant Q",
+      "star": 4.4,
+      "cuisines": ["Argentinian"],
+      "timing": "35-40",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 18,
+      "name": "Restaurant R",
+      "star": 4.5,
+      "cuisines": ["Peruvian"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 19,
+      "name": "Restaurant S",
+      "star": 4.6,
+      "cuisines": ["Russian"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 20,
+      "name": "Restaurant T",
+      "star": 4.7,
+      "cuisines": ["Cuban"],
+      "timing": "30-35",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 21,
+      "name": "Restaurant U",
+      "star": 4.8,
+      "cuisines": ["Egyptian"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 22,
+      "name": "Restaurant V",
+      "star": 4.9,
+      "cuisines": ["German"],
+      "timing": "25-30",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 23,
+      "name": "Restaurant W",
+      "star": 4.3,
+      "cuisines": ["Filipino"],
+      "timing": "30-35",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 24,
+      "name": "Restaurant X",
+      "star": 4.4,
+      "cuisines": ["Indonesian"],
+      "timing": "35-40",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 25,
+      "name": "Restaurant Y",
+      "star": 4.5,
+      "cuisines": ["Portuguese"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    },
+    {
+      "id": 26,
+      "name": "Restaurant Z",
+      "star": 4.8,
+      "cuisines": ["Japanese"],
+      "timing": "20-25",
+      "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3"
+    }
+  ]
+}

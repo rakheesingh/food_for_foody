@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const fetchRestaurants = createAsyncThunk(
   'restaurants/fetchRestaurants',
-  async ({ page = 1, limit = 10 }) => {
+  async ({ page = 1, limit = 5 }) => {
     const response = await axios.get(`http://localhost:5001/restaurants?_page=${page}&_limit=${limit}`);
     console.log(response.data);
     return response.data;

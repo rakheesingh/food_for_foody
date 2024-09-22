@@ -18,8 +18,8 @@
     "@parcel/transformer-svg-react": "^2.12.0",
     "buffer": "^6.0.3",
     "parcel": "^2.12.0",
-    "process": "^0.11.10",
-    "parcel-plugin-alias": "^1.0.2"
+    "parcel-plugin-alias": "^1.0.2",
+    "process": "^0.11.10"
   },
   "alias": {
     "app": "./src/app"
